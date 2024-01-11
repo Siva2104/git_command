@@ -1,0 +1,8 @@
+git add .
+git commit -m "Your commit message here"
+git push origin branch-name
+git branch
+git checkout origin 'another_branch' //change branch
+
+git remote 
+git remote -v // remote repository
