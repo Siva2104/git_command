@@ -5,6 +5,13 @@ git init [project name]
 git clone  <project url>
 git add .
 
+##~}} 
+###change repository
+git remote 
+git remote -v
+git add origin repo_name
+git push 
+
 ####ADD a file
 
 git add [file]
