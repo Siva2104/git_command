@@ -12,6 +12,7 @@ git remote -v
 git add origin repo_name
 git push 
 >git remote set-url origin (repo_Name_) >> to change the remote_repo
+> git push -u "repo_http_linK" master
 ####ADD a file
 
 git add [file]
