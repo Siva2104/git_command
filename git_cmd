@@ -1,18 +1,24 @@
 git config --global:::user.name “Your Name” Set the name that will be attached to your commits and tags.
 git config --global
+
+
 user.email “you@example.com”Set the e-mail address that will be attached to your commitsand tags.
 git init [project name]
 git clone  <project url>
+git status -> status of the repo -> files in staged stage, commited status
+git log -> see all the commit message
+
 git add .
 
 ##~}} 
 ###change repository
 git remote 
-git remote -v
-git add origin repo_name
+git remote -v -> 
+git add origin repo_name 
 git push 
 >git remote set-url origin (repo_Name_) >> to change the remote_repo
 > git push -u "repo_http_linK" master
+> git push origin master -> origin remote sever, master is the branch
 ####ADD a file
 
 git add [file]
